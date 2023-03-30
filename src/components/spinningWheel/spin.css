@@ -1,7 +1,7 @@
 :root {
     --wheel-font: "Lato", "Quicksand", sans-serif;
     --wheel-size: 350px;
-    --wheel-slice-spacing: 25px;
+    --wheel-slice-spacing: 30px;
     --wheel-border-size: 5px;
     --wheel-color: #d38c12;
     --neutral-color: white;
@@ -19,7 +19,7 @@
     :root {
         --wheel-font: "Lato", "Quicksand", sans-serif;
         --wheel-size: 280px;
-        --wheel-slice-spacing: 25px;
+        --wheel-slice-spacing: 30px;
         --wheel-border-size: 5px;
         --wheel-color: #d38c12;
         --neutral-color: white;
@@ -39,7 +39,7 @@
     box-sizing: content-box;
     width: calc(var(--wheel-size) + 2 * var(--wheel-border-size));
     height: calc(var(--wheel-size) + 2 * var(--wheel-border-size));
-    padding: 2px;
+    /* padding: 2px; */
     margin: auto;
     background-color: var(--neutral-color);
     border: solid var(--wheel-color) 3px;

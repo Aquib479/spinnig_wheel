@@ -13,7 +13,7 @@ const Index = ({ items, onChange, spinning }) => {
                     <img src={IMG1} alt="" className='opacity-[0.5]' />
                     <img src={IMG2} alt="" className='absolute bottom-0 opacity-[0.5]' />
                 </div>
-                <div className='relative w-[98%] m-auto top-0 lg:absolute lg:w-[50%] lg:top-[20%] lg:left-[25%]'>
+                <div className='relative w-[98%] m-auto lg:absolute lg:w-[50%] lg:top-[20%] lg:left-[25%]'>
                     <div className='relative'>
                         <SpinningWheel
                             items={items}
