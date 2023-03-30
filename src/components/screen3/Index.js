@@ -11,7 +11,6 @@ const Index = () => {
 
     const [code, setCode] = useState('');
     const [showtoast, setShowToast] = useState(false);
-    console.log(showtoast);
 
     const get_couponCode = () => {
         setCode(COUPON_CODE[index]);

@@ -4,6 +4,7 @@ import IMG2 from '../Images/h2.png'
 import IMG3 from '../Images/spin2.png'
 import { GrMail } from 'react-icons/gr'
 import { FaPhoneAlt } from 'react-icons/fa'
+import axios from 'axios'
 
 const Index = () => {
     let [checkBox, setCheckbox] = useState('');
@@ -52,9 +53,20 @@ const Index = () => {
 
     useEffect(() => {
         if (Object.keys(error).length === 0 && submit) {
+
             // api call for post request !!
+
+            // axios.post(`${'apiurl'}/user`, { user: FormValue }, {
+            //     headers: {
+            //         'Content-Type': 'application/json'
+            //     }
+            // })
+            //     .then(val => {
+            //         console.log(val);
+            //     }).catch(err => {
+            //         console.log(err);
+            //     })
             window.location = '/spinner'
-            console.log(FormValue);
         }
     }, [error, submit])
 
